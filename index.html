@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+  
+    <div class="container">
+      
+      <header>
+        <h1 class="h1">myTRELLO</h1>
+        <nav>
+          <form>
+            <p>Filter:</p>
+          <input class="navTask" type="text" placeholder="Ricerca" />
+        </form>
+          <form >
+            <p>Assign to:</p>
+            <select class="rounded form" name="Assegnato a:" >
+            <option value="utente1">Roberto La Porta</option>
+            <option value="Utente2">Gabriele Culotta</option>
+            </select>
+           
+          </form>
+          <form>
+            <p>Priority:</p>
+            <select class="rounded form" name="priority" >
+            <option value="Priorità: Bassa">Priorità: Bassa </option>
+            <option value="Priorità: Media">Priorità: Media </option>
+            <option value="Priorità: Alta">Priorità: Alta</option>
+            </select>
+          
+          </form>
+          <form>
+          <p>Done/undone:</p>
+          <button class="rounded form">Completed</button>
+        </form>
+        </nav>
+      </header>
+
+      <div class="lista">
+        <ul>
+          <hr>
+          <li>  <button class="aggiungi">+ NEW TASK</button></li>
+          <hr>
+          <li>
+            <span class="dot greendot"></span>
+              <p class="description">Fare la spesa</p>
+              <button>Edit</button>
+              <button>Delete</button>
+          </li>
+          
+          <li>
+            <span class="dot reddot"></span>
+            <p class="description">Aprire G.Calendar</p>
+            <button>Edit</button>
+            <button>Delete</button>
+          </li>
+          <li>
+            <span class="dot greendot"></span>
+            <p class="description">Fare trello landing page</p>
+            <button>Edit</button>
+            <button>Delete</button>
+          </li>
+          <li>
+            <span class="dot yellowdot"></span>
+            <p class="description">pushing files</p>
+            <button>Edit</button>
+            <button>Delete</button>
+          </li>
+     
+        </ul>
+      </div>
+    </div class="container">
+  </body>
+</html>

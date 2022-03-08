@@ -1,0 +1,130 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #333333;
+}
+
+.container {
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  top: 15px;
+  width: 1000px;
+  height: 600px;
+
+  background-repeat: no-repeat;
+  /* background-color: #8d21f1; */
+}
+nav {
+  margin: auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  background-color: #272727;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  height: 30px;
+  width: 150px;
+}
+
+.rounded {
+  border-radius: 3px;
+}
+li button {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #1b1b1b;
+  color: white;
+}
+h1 {
+  font-size: 500%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.lista {
+  margin-top: 20px;
+  border-radius: 2px;
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+}
+
+.lista ul {
+  list-style: none;
+}
+
+.lista ul li {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  width: 900px;
+  justify-content: space-around;
+}
+.navTask {
+  height: 23px;
+  background-color: trasparent;
+  width: 360px;
+  outline: none;
+}
+
+.description {
+  color: white;
+  width: 300px;
+}
+
+.aggiungi {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  color: white;
+  font-size: 23px;
+  border: none;
+  padding: 30px 30px;
+
+  background-color: transparent;
+  width: 800px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.reddot {
+  background-color: red;
+}
+
+.yellowdot {
+  background-color: yellow;
+}
+
+.greendot {
+  background-color: green;
+}
+
+form p {
+  margin: 0;
+  color: white;
+}
+
+.buttonform {
+  flex-direction: column;
+}
+
+button:hover {
+  background-color: white;
+  color: #272727;
+}
